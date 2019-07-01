@@ -1,0 +1,23 @@
+{
+  "name": "instagram-conversation-analyser",
+  "version": "1.0.0",
+  "description": "Provides functions to analyse conversation data from Instagram's downloadable messages.json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests not yet implemented.\" && exit 1",
+    "lint": "./node_modules/.bin/eslint",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "lodash": "^4.17.11",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0"
+  }
+}
